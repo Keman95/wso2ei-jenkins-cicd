@@ -2,6 +2,7 @@
 <proxy name="HelloProxy" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
     <target>
         <inSequence>
+            <log/>
             <payloadFactory description="Set the payload" media-type="json">
                 <format>{â€œmessageâ€?:â€?Hello Jeremiah Keman Migadde. Please and please work this timeâ€?}</format>
                 <args/>
