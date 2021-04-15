@@ -94,7 +94,7 @@
         <configuration>
           <carbonServers>
             <CarbonServer>
-              <trustStorePath>/home/wso2carbon/wso2ei-6.5.0/repository/resources/security/wso2carbon.jks</trustStorePath>
+              <trustStorePath>/var/jenkins_home/workspace/wso2ei_test/JenkinsCICDSample/HelloCompositeApp/src/main/resources/security/wso2carbon.jks</trustStorePath>
               <trustStorePassword>wso2carbon</trustStorePassword>
               <trustStoreType>JKS</trustStoreType>
               <serverUrl>https://192.168.0.77:9443</serverUrl>
