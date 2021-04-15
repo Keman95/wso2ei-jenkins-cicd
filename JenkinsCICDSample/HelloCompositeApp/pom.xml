@@ -97,7 +97,7 @@
               <trustStorePath>/home/wso2carbon/wso2ei-6.5.0/repository/resources/security/wso2carbon.jks</trustStorePath>
               <trustStorePassword>wso2carbon</trustStorePassword>
               <trustStoreType>JKS</trustStoreType>
-              <serverUrl>https://192.168.0.77:9443/carbon</serverUrl>
+              <serverUrl>https://192.168.0.77:9443</serverUrl>
               <userName>admin</userName>
               <password>admin</password>
               <operation>deploy</operation>
